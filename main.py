@@ -583,6 +583,7 @@ def help_cmd(update: Update, context: CallbackContext):
 # ----------------------------------------------------------
 
 def main():
+    print("✅ Bot Telegram berjalan...")
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
@@ -608,5 +609,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
