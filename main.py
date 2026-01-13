@@ -23,7 +23,7 @@ import openpyxl
 # KONFIGURASI BOT
 # ==========================================================
 
-TOKEN = os.getenv("8520211250:AAHf9TTxorlrUhZWq0tt0VwLBa29oo5j2RE")   # GANTI DENGAN TOKEN BOTFATHER
+TOKEN = os.getenv("BOT_TOKEN")   # GANTI DENGAN TOKEN BOTFATHER
 
 DATA_FILE = "data_kunjungan.json"
 FOLDER_FOTO = "foto_kunjungan"
@@ -608,4 +608,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
